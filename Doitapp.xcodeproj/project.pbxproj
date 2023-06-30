@@ -20,6 +20,7 @@
 		BDEF30712A4A3C720077D812 /* DoitappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF30702A4A3C720077D812 /* DoitappApp.swift */; };
 		BDEF30752A4A3C760077D812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEF30742A4A3C760077D812 /* Assets.xcassets */; };
 		BDEF30782A4A3C760077D812 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEF30772A4A3C760077D812 /* Preview Assets.xcassets */; };
+		C9B2ED592A4F445D00006CEE /* targetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2ED582A4F445D00006CEE /* targetLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		BDEF30702A4A3C720077D812 /* DoitappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitappApp.swift; sourceTree = "<group>"; };
 		BDEF30742A4A3C760077D812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEF30772A4A3C760077D812 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9B2ED582A4F445D00006CEE /* targetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = targetLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BDEF30702A4A3C720077D812 /* DoitappApp.swift */,
 				BD0CC1AF2A4CDC2300929C92 /* ViewA.swift */,
+				C9B2ED582A4F445D00006CEE /* targetLocation.swift */,
 				BD0CC1B12A4CDC3400929C92 /* ViewB.swift */,
 				BD0CC1B32A4CDC3D00929C92 /* ViewC.swift */,
 				BD4042152A4E10400066CC93 /* homeViewD.swift */,
@@ -179,6 +182,7 @@
 				BDEF30712A4A3C720077D812 /* DoitappApp.swift in Sources */,
 				BD4042142A4E0F6F0066CC93 /* mainPage.swift in Sources */,
 				BD2B60D62A4F32D300CD0140 /* Doitapp.xcdatamodeld in Sources */,
+				C9B2ED592A4F445D00006CEE /* targetLocation.swift in Sources */,
 				BD0CC1B42A4CDC3D00929C92 /* ViewC.swift in Sources */,
 				BD0CC1B02A4CDC2300929C92 /* ViewA.swift in Sources */,
 				BD57F7DD2A4CAA3000E2D4A5 /* loading.swift in Sources */,

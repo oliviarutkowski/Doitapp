@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct mainPage: View {
+    let persistenceController = PersistenceController.shared
+    
     var body: some View {
        // ScrollView {
        // Color.gray
@@ -20,10 +22,10 @@ struct mainPage: View {
                         Image(systemName: "trophy.fill")
                         Text("Trophy")
                     }
-                ViewB()
+                ViewB().environment(\.managedObjectContext, persistenceController.container.viewContext)
                     .badge(5)
                     .tabItem(){
-                        Image(systemName: "note.fill")
+                        Image(systemName: "note")
                         Text("Goals")
                     }
                 ViewC()

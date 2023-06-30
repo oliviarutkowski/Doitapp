@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct DoitappApp: App {
-    let persistenceController = PersistenceController.shared
+   // let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
             loading()
-           ViewB().environment(\.managedObjectContext, persistenceController.container.viewContext)
+          // ViewB().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

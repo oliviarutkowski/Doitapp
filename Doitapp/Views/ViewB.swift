@@ -3,6 +3,7 @@
 import SwiftUI
 
 struct ViewB: View {
+
     @Environment(\.managedObjectContext) var context
     @FetchRequest(
         entity: ToDo.entity(), sortDescriptors: [ NSSortDescriptor(keyPath: \ToDo.id, ascending: false) ])
@@ -10,6 +11,7 @@ struct ViewB: View {
     var toDoItems: FetchedResults<ToDo>
     @State var count = 0
     @State private var showNewTask = false
+   
     
     var body: some View {
         ZStack{

@@ -10,11 +10,11 @@ import SwiftUI
 struct homeViewD: View {
     var body: some View {
         ZStack{
-            Color.gray
+    
+            Image("homepage")
+                .resizable()
                 .ignoresSafeArea()
-            Image(systemName: "")
-                .foregroundColor(Color.white)
-                .font(.system(size: 100.0))
+                .aspectRatio(contentMode: .fill)
         }
     }
 }

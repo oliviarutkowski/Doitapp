@@ -9,12 +9,32 @@ import SwiftUI
 
 struct ViewA: View {
     var body: some View {
-        ZStack{
-            Color.gray
-             //   .ignoresSafeArea()
-            Image(systemName: "trophy.fill")
-                .foregroundColor(Color.white)
-                .font(.system(size: 100.0))
+        NavigationStack {
+            ZStack{
+            Image("background")
+                .renderingMode(.original)
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(-58.0)
+            Image("trophyroom")
+                .renderingMode(.original)
+                .resizable(capInsets: EdgeInsets(top: -900.0, leading: 0.0, bottom: -900.0, trailing: 0.0), resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .padding(-11.0)
+                .frame(height: 500.0)
+            
+                VStack {
+                    
+                    NavigationLink(destination: targetLocation()) {
+                        Image("ironTrophy")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .padding(138.0)
+                            .position(x: 60, y: 257)
+                    }
+                    
+                }
+            }
         }
     }
 }
