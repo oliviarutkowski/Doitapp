@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0CC1B02A4CDC2300929C92 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CC1AF2A4CDC2300929C92 /* ViewA.swift */; };
+		BD0CC1B22A4CDC3400929C92 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CC1B12A4CDC3400929C92 /* ViewB.swift */; };
+		BD0CC1B42A4CDC3D00929C92 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CC1B32A4CDC3D00929C92 /* ViewC.swift */; };
+		BD2B60C82A4F292400CD0140 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B60C72A4F292400CD0140 /* Persistence.swift */; };
+		BD2B60CA2A4F29C900CD0140 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B60C92A4F29C900CD0140 /* ToDoItem.swift */; };
+		BD2B60CC2A4F29EB00CD0140 /* newToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B60CB2A4F29EB00CD0140 /* newToDo.swift */; };
+		BD2B60D62A4F32D300CD0140 /* Doitapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2B60D42A4F32D300CD0140 /* Doitapp.xcdatamodeld */; };
+		BD4042142A4E0F6F0066CC93 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4042132A4E0F6F0066CC93 /* mainPage.swift */; };
+		BD4042162A4E10400066CC93 /* homeViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4042152A4E10400066CC93 /* homeViewD.swift */; };
+		BD57F7DD2A4CAA3000E2D4A5 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57F7DC2A4CAA3000E2D4A5 /* loading.swift */; };
 		BDEF30712A4A3C720077D812 /* DoitappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF30702A4A3C720077D812 /* DoitappApp.swift */; };
-		BDEF30732A4A3C720077D812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF30722A4A3C720077D812 /* ContentView.swift */; };
 		BDEF30752A4A3C760077D812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEF30742A4A3C760077D812 /* Assets.xcassets */; };
 		BDEF30782A4A3C760077D812 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEF30772A4A3C760077D812 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0CC1AF2A4CDC2300929C92 /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		BD0CC1B12A4CDC3400929C92 /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		BD0CC1B32A4CDC3D00929C92 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
+		BD2B60C72A4F292400CD0140 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD2B60C92A4F29C900CD0140 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD2B60CB2A4F29EB00CD0140 /* newToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newToDo.swift; sourceTree = "<group>"; };
+		BD2B60D52A4F32D300CD0140 /* Doitapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Doitapp.xcdatamodel; sourceTree = "<group>"; };
+		BD4042132A4E0F6F0066CC93 /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		BD4042152A4E10400066CC93 /* homeViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewD.swift; sourceTree = "<group>"; };
+		BD57F7DC2A4CAA3000E2D4A5 /* loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
 		BDEF306D2A4A3C720077D812 /* Doitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEF30702A4A3C720077D812 /* DoitappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoitappApp.swift; sourceTree = "<group>"; };
-		BDEF30722A4A3C720077D812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDEF30742A4A3C760077D812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEF30772A4A3C760077D812 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +50,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0CC1A72A4CDB1E00929C92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDEF30702A4A3C720077D812 /* DoitappApp.swift */,
+				BD0CC1AF2A4CDC2300929C92 /* ViewA.swift */,
+				BD0CC1B12A4CDC3400929C92 /* ViewB.swift */,
+				BD0CC1B32A4CDC3D00929C92 /* ViewC.swift */,
+				BD4042152A4E10400066CC93 /* homeViewD.swift */,
+				BD4042132A4E0F6F0066CC93 /* mainPage.swift */,
+				BD57F7DC2A4CAA3000E2D4A5 /* loading.swift */,
+				BD2B60C72A4F292400CD0140 /* Persistence.swift */,
+				BD2B60CB2A4F29EB00CD0140 /* newToDo.swift */,
+				BD2B60C92A4F29C900CD0140 /* ToDoItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BDEF30642A4A3C720077D812 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +86,10 @@
 		BDEF306F2A4A3C720077D812 /* Doitapp */ = {
 			isa = PBXGroup;
 			children = (
-				BDEF30702A4A3C720077D812 /* DoitappApp.swift */,
-				BDEF30722A4A3C720077D812 /* ContentView.swift */,
+				BD0CC1A72A4CDB1E00929C92 /* Views */,
 				BDEF30742A4A3C760077D812 /* Assets.xcassets */,
 				BDEF30762A4A3C760077D812 /* Preview Content */,
+				BD2B60D42A4F32D300CD0140 /* Doitapp.xcdatamodeld */,
 			);
 			path = Doitapp;
 			sourceTree = "<group>";
@@ -137,8 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEF30732A4A3C720077D812 /* ContentView.swift in Sources */,
+				BD0CC1B22A4CDC3400929C92 /* ViewB.swift in Sources */,
+				BD2B60C82A4F292400CD0140 /* Persistence.swift in Sources */,
+				BD2B60CC2A4F29EB00CD0140 /* newToDo.swift in Sources */,
+				BD2B60CA2A4F29C900CD0140 /* ToDoItem.swift in Sources */,
 				BDEF30712A4A3C720077D812 /* DoitappApp.swift in Sources */,
+				BD4042142A4E0F6F0066CC93 /* mainPage.swift in Sources */,
+				BD2B60D62A4F32D300CD0140 /* Doitapp.xcdatamodeld in Sources */,
+				BD0CC1B42A4CDC3D00929C92 /* ViewC.swift in Sources */,
+				BD0CC1B02A4CDC2300929C92 /* ViewA.swift in Sources */,
+				BD57F7DD2A4CAA3000E2D4A5 /* loading.swift in Sources */,
+				BD4042162A4E10400066CC93 /* homeViewD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +381,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD2B60D42A4F32D300CD0140 /* Doitapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD2B60D52A4F32D300CD0140 /* Doitapp.xcdatamodel */,
+			);
+			currentVersion = BD2B60D52A4F32D300CD0140 /* Doitapp.xcdatamodel */;
+			path = Doitapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BDEF30652A4A3C720077D812 /* Project object */;
 }
